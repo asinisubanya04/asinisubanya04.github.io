@@ -357,7 +357,7 @@ section {
 .notepad-content {
     flex: 1;
     padding: 12px 8px;
-    font-size: 18px;
+    font-size: 16px;
     color: #222;
     overflow-y: auto;
     background: #bdbdbd;
