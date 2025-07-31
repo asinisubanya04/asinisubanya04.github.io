@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Saira&family=Share+Tech&display=swap" rel="stylesheet">
+    <script src="Script1.js" defer></script>
+</head>
+<body>
+    <!-- First Frame with Video -->
+    <section id="first-frame">
+        <div id="video-container">
+            <video autoplay muted loop playsinline id="bg-video">
+                <source src="bg1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div id="typewriter"></div>
+        <button class="corner-btn" aria-label="Menu or Next" id="toggleEffect">❀˖°</button>
+        <canvas id="particleCanvas"></canvas>
+        <!-- Hamburger Icon -->
+        <button class="hamburger-btn" id="hamburger" aria-label="Menu" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <!-- Fullscreen Overlay Menu -->
+        <div class="fullscreen-menu" id="fullscreenMenu">
+            <nav>
+                <ul>
+                    <li><a href="#second-frame">About</a></li>
+                    <li><a href="#third-frame">Work Experience</a></li>
+                    <li><a href="#fifth-frame">Key Projects</a></li>
+                    <li><a href="#hero-contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </section>
+
+
+    <section id="second-frame">
+        <!-- Top left videos -->
+        <div class="video-stack left-stack">
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+
+        <div class="video-stack right-stack">
+            <!-- Top right videos -->
+            <video class="corner-video top-right" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-right" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-right" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-right" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+
+        <div id="second-frame-content">
+            <div class="image-container fade-in-element">
+                <img src="me.png" alt="me" id="me-image" />
+                <img src="radio.png" alt="radio" class="bottom-left-image" />
+                <img src="cat.png" alt="cat" class="bottom-right-image" />
+            </div>
+
+            <div class="notepad-box fade-in-element" data-delay="0.3">
+
+                <div class="notepad-titlebar">
+                    <span class="notepad-title">Untitled - Notepad</span>
+                    <span class="notepad-window-controls">
+                        <span class="notepad-btn">_</span>
+                        <span class="notepad-btn">▢</span>
+                        <span class="notepad-btn">✕</span>
+                    </span>
+                </div>
+                <div class="notepad-menu">
+                    <span>File</span>
+                    <span>Edit</span>
+                    <span>Search</span>
+                    <span>Help</span>
+                </div>
+                <div class="notepad-content">
+                    <p>
+                        About Me<br>
+                        I'm an undergraduate Computer Engineering student at New York University Abu Dhabi. A field within computer engineering that truly captivates me is health applications—especially those that leverages AI, and microcontrollers. What draws me in is the deeply human aspect of it: knowing how many people, both close to me and complete strangers, live with different conditions, seeking prevention and treatment, doing everything they can just to live a little longer. That reality has driven my passion toward this space—because here, my knowledge can directly impact someone's life. <br />
+
+                        Beyond the technical world, I absolutely love music. I listen to a lot of indie rock, 90s and early 2000s pop, jazz, city pop, and Sinhala songs that carry waves of nostalgia, some from my own childhood, and others from my parents' days that I can only imagine through sound.
+                        I also adore films. The cinephile in me often drawn to movies like The Shawshank Redemption, In the Mood for Love, Good Will Hunting, Fight Club, and anything by Wong Kar-wai, and ones that challenge societal norms and capture the rawness of life. I also enjoy dressing up and styling myself, especially with pieces that carry a vintage or retro vibe. I find joy in curating outfits with unique pieces of clothes/accessories that echo eras gone by. <br />
+
+                        In my free time, you’ll either find me catching up with friends, picking up skills I’ve been meaning to practice, like playing the guitar or learning tennis, or finally indulging in the media I’ve missed thanks to the chaos of university life.
+                    </p>
+                </div>
+            </div>
+            <div class="scrolling-bg">
+                <div class="scrolling-bg__inner">
+                    ˖°𓇼🌊⋆🐚🫧🪼⋆.ೃ࿔*:･˙ . ꒷ 🍙 . 𖦹˙- 🐈‍⬛🫧𓇼𓏲*ੈ✩‧₊˚🎐🌊⋆｡𖦹 °.🐚⋆❀˖°🫧˙ ✩°˖🫐 ⋆｡˚꩜°‧🫧⋆.ೃ࿔*:･˙✧˖°📷 ༘ ⋆｡°
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="third-frame">
+        <div class="video-stack left-stack">
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+
+        <div class="video-stack right-stack">
+            <!-- Top right videos -->
+            <video class="corner-video top-right" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-right" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-right" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-right" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+
+        <section id="horizontal-timeline-frame">
+            <h2 class="timeline-title">Work Experience</h2>
+            <div class="horizontal-timeline">
+                <div class="timeline-event"
+                     data-title="Started University at NYUAD"
+                     data-description="You began your undergraduate journey at New York University Abu Dhabi, majoring in Computer Engineering and exploring your interests in technology, research, and student life.">
+                    <div class="event-dot"></div>
+                    <div class="event-date">2022</div>
+                    <div class="event-desc">Started University at NYUAD</div>
+                </div>
+                <div class="timeline-event"
+                     data-title="Reading Room Manager Art Gallery NYUAD"
+                     data-description="You managed the Reading Room at the NYUAD Art Gallery, helping to curate resources and facilitate a creative environment for students and visitors.">
+                    <div class="event-dot"></div>
+                    <div class="event-date">2023</div>
+                    <div class="event-desc">Reading Room Manager Art Gallery NYUAD</div>
+                </div>
+                <div class="timeline-event"
+                     data-title="President of IAARC Student Chapter"
+                     data-description="As president, you led the International Association for Automation and Robotics in Construction (IAARC) Student Chapter, organizing events and promoting innovation in construction technology.">
+                    <div class="event-dot"></div>
+                    <div class="event-date">2024</div>
+                    <div class="event-desc">President of IAARC Student Chapter</div>
+                </div>
+                <div class="timeline-event"
+                     data-title="Research Assistant Clinical AI Lab"
+                     data-description="You joined the Clinical AI Lab as a research assistant, contributing to projects at the intersection of artificial intelligence and healthcare.">
+                    <div class="event-dot"></div>
+                    <div class="event-date">2025</div>
+                    <div class="event-desc">Research Assistant Clinical AI Lab</div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="fifth-frame">
+        <div class="video-stack left-stack">
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+
+        <div class="video-stack right-stack">
+            <!-- Top right videos -->
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+        <section id="key-projects">
+            <h2 class="timeline-title">Key Projects</h2>
+            <div class="projects-list">
+                <!-- Project 1: Image left, text right -->
+                <div class="project-row">
+                    <a href=" = " NoName551.github.io/30MFF/" class="shake-link" target="_blank">
+                        <img src="1.png" alt="Project 1" class="project-image" />
+                    </a>
+                    <div class="project-desc">
+                        <h3>30 Minutes Film Festival - The Myth Of Productivity</h3>
+                        <p style="font-size: 1.3rem;">
+                            This website critiques the myth of constant productivity in the digital age, especially among university students facing academic pressure and rigid expectations. It explores the emotional toll of this mindset—highlighting exhaustion, disconnection, and the burden of long-term planning—while advocating for balance, spontaneity, and meaningful human connection. Through narrative and video, it contrasts intrusive thoughts with joyful moments, showing how time with loved ones can offer perspective and fulfillment beyond mere achievements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="sixth-frame">
+        <div class="video-stack left-stack">
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+
+        <div class="video-stack right-stack">
+            <!-- Top right videos -->
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+        <section id="key-projects-6">
+            <div class="projects-list">
+                <!-- Project 1: Image right, text left -->
+                <div class="project-row reverse">
+                    <a href="https://github.com/janiajones/Comic" class="shake-link" target="_blank">
+                        <img src="2.png" alt="Project 2" class="project-image" />
+                    </a>
+                    <div class="project-desc">
+
+                        <h3>Interactive Comic</h3>
+                        <p style="font-size: 1.3rem;">
+                            This comic follows a character who briefly encounters a tour guide at the beginning and end of their journey, traveling through various destinations on Earth in between.
+                        </p>
+                    </div>
+                </div>
+                <!-- Project 2: Image left, text right -->
+                <div class="project-row">
+                    <a href="https://github.com/asr637/asr637.github.io/tree/main/audio" class="shake-link" target="_blank">
+                        <img src="3.png" alt="Project 3" class="project-image" />
+                    </a>
+                    <div class="project-desc">
+                        <h3>Are Dreams Real? </h3>
+                        <p style="font-size: 1.3rem;">
+                            This audio project centers on the anxiety of performance and the pressure to succeed. It captures a heartfelt conversation between a mother and daughter after the daughter wakes up from a dream, revealing her inner worries and emotional vulnerability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section id="seventh-frame">
+        <div class="video-stack left-stack">
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+
+        <div class="video-stack right-stack">
+            <!-- Top right videos -->
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+        <section id="key-projects-7">
+            <div class="projects-list">
+                <!-- Project 1: Image right, text left -->
+                <div class="project-row reverse">
+                    <a href="https://mah9994.github.io/Video/" class="shake-link" target="_blank">
+                        <img src="4.png" alt="Project 4" class="project-image" />
+                    </a>
+                    <div class="project-desc">
+                        <h3>How To Survive A Group Project</h3>
+                        <p style="font-size: 1.3rem;">
+                            This short film captures the challenges of collaborating on a group project—conflicts around time management, varying levels of effort, and the frustration of imbalanced responsibility. It highlights familiar dynamics: the overachiever, the passive participant, and the one full of excuses. Despite the tension and uneven contributions, the project concludes with unfair grading, where even those who did little receive the same credit as those who carried the team.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-row1">
+                    <a href="https://github.com/NoName551/Machine-Learning" class="shake-link" target="_blank">
+                        <img src="cnn.png" alt="CNN" class="project-image-small1" />
+                    </a>
+                    <div class="project-desc1">
+                        <h3>Machine Learning Projects</h3>
+                        <p style="font-size: 1.3rem;">
+                            Developed a Convolutional Neural Network (CNN) from scratch using NumPy to classify handwritten digits from the MNIST dataset.
+                            Also implemented a Generative Adversarial Network (GAN) without using deep learning libraries to generate synthetic images through adversarial training.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+
+    <section id="hero-contact">
+        <div class="video-stack left-stack">
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+
+        <div class="video-stack right-stack">
+            <!-- Top right videos -->
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted></video>
+            <video class="corner-video top-left" src="bg1.mp4" autoplay loop muted style="top: 120px;"></video>
+        </div>
+        <section id="contact-frame">
+            <div class="notepad-box contact-notepad">
+                <div class="notepad-titlebar1">
+                    <span class="notepad-title1">Contact - Notepad</span>
+                    <span class="notepad-window-controls">
+                        <span class="notepad-btn">_</span>
+                        <span class="notepad-btn">▢</span>
+                        <span class="notepad-btn">✕</span>
+                    </span>
+                </div>
+                <div class="notepad-menu1">
+                    <span>File</span>
+                    <span>Edit</span>
+                    <span>Search</span>
+                    <span>Help</span>
+                </div>
+                <div class="notepad-content1">
+                    <h2 class="contact-title">Say A Simple Hello!</h2>
+                    <p class="contact-subtitle">
+                        If you’re interested in collaborating, discussing creative ideas, or simply want to connect! <span style="font-size:1.1em;">🫧𓇼𓏲*ੈ✩‧₊˚🎐</span>
+                    </p>
+                    <form class="contact-form" autocomplete="off">
+                        <input type="text" placeholder="Your Name" name="name" required />
+                        <input type="email" placeholder="Your Email" name="email" required />
+                        <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+                        <button type="submit" class="contact-btn">Send Message</button>
+                    </form>
+                    <div class="contact-socials">
+                        <a href="https://github.com/NoName551/NoName551.github.io" target="_blank" aria-label="GitHub">
+                            <img src="github.png" alt="GitHub" />
+                        </a>
+                        <a href="www.linkedin.com/in/asini-subanya" target="_blank" aria-label="LinkedIn">
+                            <img src="linkedin.png" alt="LinkedIn" />
+                        </a>
+                        <a href="https://www.instagram.com/asini.33?igsh=d2d0YnV5ZnQxa2o2&utm_source=qr" target="_blank" aria-label="Instagram">
+                            <img src="ig.png" alt="Instagram" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+</body>
+</html>
+
+
