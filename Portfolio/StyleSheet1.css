@@ -368,7 +368,8 @@ section {
     overflow-y: auto;
     background: #bdbdbd;
     font-display: swap;
-    font-family: 'Consolas', 'Courier New', monospace;
+    font-family: 'Saira', 'Share Tech', 'Consolas', monospace, sans-serif;
+    /*font-family: 'Consolas', 'Courier New', monospace;*/
     white-space: pre-line;
 }
 
@@ -768,7 +769,7 @@ section {
     font-size: 2em;
     margin-bottom: 30px;
     font-display: swap;
-    font-family: 'Courier New', monospace;
+    font-family: 'Saira', 'Share Tech', monospace, sans-serif;
 }
 
 .skills-list {
@@ -785,7 +786,7 @@ section {
   border-radius: 8px;
   font-size: 1em;
   font-display: swap;
-  font-family: 'Courier New', monospace;
+  font-family: 'Saira', 'Share Tech', monospace, sans-serif;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
